@@ -1,5 +1,3 @@
-from tabnanny import verbose
-from sklearn import metrics
 from read_csv import doc_preprocess 
 from sklearn.model_selection import train_test_split, validation_curve
 from tensorflow.keras.models import Sequential
